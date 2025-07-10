@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for layout */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header .btn {
+    background: #fff;
+    color: #007bff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+    background: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.hero ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hero li {
+    margin: 0.5em 0;
+}
+
+/* Quote form */
+.quote {
+    background: #e2e2e2;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.quote form input,
+.quote form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.quote form button {
+    background: #007bff;
+    color: #fff;
+    padding: 0.7em 2em;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pricing section */
+.pricing {
+    background: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.pricing-tiers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tier {
+    background: #f9f9f9;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.tier h4 {
+    margin-bottom: 0.5em;
+}
+
+.tier .price {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+/* Testimonial */
+.testimonial {
+    background: #e9ecef;
+    padding: 2em 0;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
